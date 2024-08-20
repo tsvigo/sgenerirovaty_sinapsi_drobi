@@ -39,6 +39,7 @@ struct Fraction {
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
+QGuiApplication::setWindowIcon(QIcon("/home/viktor/my_projects_qt_2/sgenerirovaty_sinapsi_drobi/icons/icon_64x64.png"));
     
     // Set up code that uses the Qt event loop here.
     // Call a.quit() or a.exit() to quit the application.
