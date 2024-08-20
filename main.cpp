@@ -54,10 +54,13 @@ int main(int argc, char *argv[])
     
     std::vector<Fraction> fractions;
     fractions.reserve(//0//
-        10105
+     90400  // 10105
                       );
     
-    for (int i = 0; i < 10105; ++i) {
+    for (int i = 0; i < 
+    //10105
+    90400
+    ; ++i) {
         int numerator = QRandomGenerator::global()->bounded(1, 1000);
         int denominator;
         do {
