@@ -13,3 +13,4 @@ SOURCES += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+RESOURCES += /home/viktor/my_projects_qt_2/sgenerirovaty_sinapsi_drobi/resources.qrc
